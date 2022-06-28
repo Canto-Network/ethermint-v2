@@ -5,6 +5,10 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/Canto-Network/ethermint-v2/rpc/types"
+	"github.com/Canto-Network/ethermint-v2/server/config"
+	ethermint "github.com/Canto-Network/ethermint-v2/types"
+	evmtypes "github.com/Canto-Network/ethermint-v2/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -13,10 +17,6 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/evmos/ethermint/rpc/types"
-	"github.com/evmos/ethermint/server/config"
-	ethermint "github.com/evmos/ethermint/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
 )

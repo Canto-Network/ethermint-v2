@@ -13,7 +13,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/evmos/ethermint/encoding"
+	"github.com/Canto-Network/ethermint-v2/encoding"
 )
 
 func TestEthermintAppExport(t *testing.T) {

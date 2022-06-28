@@ -21,9 +21,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/evmos/ethermint/rpc/backend"
-	rpctypes "github.com/evmos/ethermint/rpc/types"
-	"github.com/evmos/ethermint/server/config"
+	"github.com/Canto-Network/ethermint-v2/rpc/backend"
+	rpctypes "github.com/Canto-Network/ethermint-v2/rpc/types"
+	"github.com/Canto-Network/ethermint-v2/server/config"
 )
 
 // API is the private miner prefixed set of APIs in the Miner JSON-RPC spec.

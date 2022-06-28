@@ -10,6 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	evmenc "github.com/Canto-Network/ethermint-v2/encoding"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
@@ -28,7 +29,6 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 	ibchost "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	evmenc "github.com/evmos/ethermint/encoding"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

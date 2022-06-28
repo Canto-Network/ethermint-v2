@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strconv"
 
+	evmtypes "github.com/Canto-Network/ethermint-v2/x/evm/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

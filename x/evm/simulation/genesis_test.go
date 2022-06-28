@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/Canto-Network/ethermint-v2/x/evm/simulation"
+	"github.com/Canto-Network/ethermint-v2/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/evmos/ethermint/x/evm/simulation"
-	"github.com/evmos/ethermint/x/evm/types"
 )
 
 // TestRandomizedGenState tests the normal scenario of applying RandomizedGenState.

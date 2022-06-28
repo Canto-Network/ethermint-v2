@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"math/big"
 
+	ethermint "github.com/Canto-Network/ethermint-v2/types"
+	"github.com/Canto-Network/ethermint-v2/x/evm/statedb"
+	"github.com/Canto-Network/ethermint-v2/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/evmos/ethermint/types"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	"github.com/evmos/ethermint/x/evm/types"
 )
 
 var _ statedb.Keeper = &Keeper{}

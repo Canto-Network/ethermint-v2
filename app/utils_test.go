@@ -8,16 +8,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	evmtypes "github.com/Canto-Network/ethermint-v2/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramstypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	ethermint "github.com/evmos/ethermint/types"
+	"github.com/Canto-Network/ethermint-v2/crypto/ethsecp256k1"
+	ethermint "github.com/Canto-Network/ethermint-v2/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"

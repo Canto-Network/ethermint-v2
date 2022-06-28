@@ -37,13 +37,13 @@ import (
 	mintypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/ethermint/crypto/hd"
-	"github.com/evmos/ethermint/server/config"
-	srvflags "github.com/evmos/ethermint/server/flags"
-	ethermint "github.com/evmos/ethermint/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Canto-Network/ethermint-v2/crypto/hd"
+	"github.com/Canto-Network/ethermint-v2/server/config"
+	srvflags "github.com/Canto-Network/ethermint-v2/server/flags"
+	ethermint "github.com/Canto-Network/ethermint-v2/types"
+	evmtypes "github.com/Canto-Network/ethermint-v2/x/evm/types"
 
-	"github.com/evmos/ethermint/testutil/network"
+	"github.com/Canto-Network/ethermint-v2/testutil/network"
 )
 
 var (

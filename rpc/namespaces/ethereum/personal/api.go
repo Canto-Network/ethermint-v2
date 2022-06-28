@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/evmos/ethermint/rpc/backend"
+	"github.com/Canto-Network/ethermint-v2/rpc/backend"
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/evmos/ethermint/crypto/hd"
-	ethermint "github.com/evmos/ethermint/types"
+	"github.com/Canto-Network/ethermint-v2/crypto/hd"
+	ethermint "github.com/Canto-Network/ethermint-v2/types"
 
 	"github.com/tendermint/tendermint/libs/log"
 
@@ -24,8 +24,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Canto-Network/ethermint-v2/crypto/ethsecp256k1"
+	evmtypes "github.com/Canto-Network/ethermint-v2/x/evm/types"
 )
 
 // PrivateAccountAPI is the personal_ prefixed set of APIs in the Web3 JSON-RPC spec.

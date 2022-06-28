@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/evmos/ethermint/rpc/backend"
-	"github.com/evmos/ethermint/rpc/types"
+	"github.com/Canto-Network/ethermint-v2/rpc/backend"
+	"github.com/Canto-Network/ethermint-v2/rpc/types"
 
 	"github.com/pkg/errors"
 	"github.com/tendermint/tendermint/libs/log"
